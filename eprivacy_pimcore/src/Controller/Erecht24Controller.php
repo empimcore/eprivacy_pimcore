@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * PHP version 5
+ * PHP version 8.0
  *
  * LICENSE: This source file is subject to version 3.0 of the PHP license
  * that is available through the world-wide-web at the following URI:
@@ -121,12 +121,12 @@ class Erecht24Controller extends FrontendController {
      * @todo Description of function defaultAction
      * @param  Request $request
      * @return Response $response
-     * @Route('/imprint', name: 'imprint')
-     * @Route('/impressum', name: 'impressum')
-     * @Route('/privacypolicy')
-     * @Route('/datenschutz')
-     * @Route('/privacypolicysocialmedia')
-     * @Route('/datenschutz-bestimmungen-von-soziale-medien')
+     * @Route("/imprint")
+     * @Route("/impressum")
+     * @Route("/privacypolicy")
+     * @Route("/datenschutz")
+     * @Route("/privacypolicysocialmedia")
+     * @Route("/datenschutz-bestimmungen-von-soziale-medien")
      *
      */
     public function defaultAction(Request $request) : Response {
