@@ -1,0 +1,12 @@
+configuration:
+    action: /
+    method: POST
+    enctype: multipart/form-data
+    noValidate: false
+    useAjax: true
+    attributes: {  }
+fields:
+    - { name: field_1009, display_name: HalloJonasChiuce, type: choice, order: 100, constraints: {  }, options: { label: HalloJonas, attr: { class: multiselect }, expanded: false, multiple: true, placeholder: ddd, choices: { HalloJonas: halloJonas, WasGehtJonas: wasGehtJonas }, choice_attr: {  } }, optional: { template: default } }
+    - { name: field_3120, display_name: Absenden, type: submit, order: 200, constraints: {  }, options: { label: 'Sende es ab' }, optional: { template: default } }
+conditional_logic: {  }
+output_workflows: {  }

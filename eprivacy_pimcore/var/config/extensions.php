@@ -8,6 +8,7 @@ return [
         "Web2PrintToolsBundle\\Web2PrintToolsBundle" => TRUE,
         "Pimcore\\Bundle\\DataHubBundle\\PimcoreDataHubBundle" => TRUE,
         "Pimcore\\Bundle\\ObjectMergerBundle\\ObjectMergerBundle" => TRUE,
-        "Pimcore\\Bundle\\EcommerceFrameworkBundle\\PimcorePaymentProviderPayPalSmartPaymentButtonBundle" => TRUE
+        "Pimcore\\Bundle\\EcommerceFrameworkBundle\\PimcorePaymentProviderPayPalSmartPaymentButtonBundle" => TRUE,
+        "FormBuilderBundle\\FormBuilderBundle" => TRUE
     ]
 ];
