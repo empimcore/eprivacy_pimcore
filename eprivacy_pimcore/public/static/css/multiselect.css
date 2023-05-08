@@ -1,7 +1,7 @@
 :root {
   --ms-background-color: white;
-  --ms-width: 400px;
-  --ms-max-width: 10%;
+  --ms-width: auto;
+  --ms-max-width: auto;
   --ms-option-font-size: 14px;
   --ms-option-color: #999;
   --ms-option-checked-text-color: black;
@@ -12,16 +12,16 @@
 }
 
 select.multiselect[multiple] {
-	 padding: 8px 16px;
-   width: var(--ms-width);
-   max-width: var(--ms-max-width);
-   background: var(--ms-background-color);
+   	 padding: 8px 16px;
+   	 width: var(--ms-width);
+   	 max-width: var(--ms-max-width);
+   	 background: var(--ms-background-color);
 }
 
 select.multiselect[multiple] option {
 	 font-size: var(--ms-option-font-size);
 	 color: var(--ms-option-color);
-   padding: 8px 8px 8px 28px;
+   	 padding: 8px 8px 8px 28px;
 	 position: relative;
 }
 
